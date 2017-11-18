@@ -4,17 +4,20 @@
         <title>Овочевий довідник Дніпра</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/vue-material.css">
     </head>
     <body>
-      <div class="main">
-        <h1 class="main__header">Овочевий довідник</h1>
+      <div class="main" id="mainApp">
+<h1 class="main__header">Овочевий довідник</h1>
         <div class="main__block">
           <h2>Актуальні ціни</h2>
           <div class="main__block--content">
             <div class="main__block--column">
-              <h3>01.11.2017</h3>
+              <md-field>
+                <label for="for-date">Актуальна дата</label>
+                <md-select v-model="currentDate" name="for-date" id="for-date">
+                  <md-option value="2017-11-18">18.11.2017</md-option>
+                </md-select>
+              </md-field>
             </div>
             <div class="main__block--column">
               <p>картопля <span>&#8372; 6.00</span></p>
@@ -44,9 +47,5 @@
             </div>
         </div>
       </div>
-      <script src="js/vue.js"></script>
-      <script src="js/vue-material.js"></script>
-      <script src="js/app.js"></script>
-      <script src="js/database.js"></script>
     </body>
 </html>
