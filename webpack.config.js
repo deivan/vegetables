@@ -40,7 +40,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.html$/,
+        test: /\.(html|json)$/,
         use: [
           'file-loader'
         ]
