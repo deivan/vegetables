@@ -5,6 +5,7 @@
 
 body {
   padding: 0;
+  padding-top:50px;
   margin:0;
   color: #000;
   font-size: 16px;
@@ -34,7 +35,7 @@ body {
     padding: 0;
     margin:0;
     top: 230px;
-    color: beige;
+    color: #fff;
     text-shadow: #080 0 0 10px;
   }
   
@@ -63,6 +64,8 @@ body {
     
     &--column {
       width: 160px;
+      height: 170px;
+      overflow-y: auto;
            
       h3 {
         width:100%;
@@ -81,11 +84,93 @@ body {
           font-weight:800;
           padding-left: 5px;
         }
+        
+        &.pull-left {
+          text-align: left;
+        }
       }
       
       select {
         width:100%;
       }
+    }
+  }
+  
+  &__selector {
+    width: 100%;
+    select {
+      width:100%;
+      background-color: #fff;
+      padding: 5px 8px;
+      border-color: #ccc;
+      border-radius: 3px;
+      
+    }
+  }
+  
+  .image {
+    background-image: url(../images/set_of_fruit_and_vegetables.jpg);
+    background-repeat: no-repeat;
+    &--cucumber {
+      background-position: 0 0;
+      width: 135px;
+      height: 86px;
+    }
+    &--carrot {
+      background-position: -135px 0;
+      width: 135px;
+      height: 92px;
+    }
+    &--potato {
+      background-position: -270px 0;
+      width: 150px;
+      height: 92px;
+    }
+    &--apple {
+      background-position: -420px 0;
+      width: 90px;
+      height: 92px;
+    }
+    &--pepper {
+      background-position: -510px 0;
+      width: 90px;
+      height: 92px;
+    }
+    &--broccoli {
+      background-position: -125px -125px;
+      width: 90px;
+      height: 92px;
+    }
+    &--cabbage {
+      background-position: -225px -125px;
+      width: 150px;
+      height: 105px;
+    }
+    &--onion {
+      background-position: 0 -245px;
+      width: 90px;
+      height: 105px;
+      margin-left: 20px;
+    }
+    &--color-cabbage {
+      background-position: -100px -245px;
+      width: 110px;
+      height: 105px;
+    }
+    &--aubergine {
+      background-position: -230px -370px;
+      width: 130px;
+      height: 115px;
+    }
+    &--tomato {
+      background-position: -470px -380px;
+      width: 130px;
+      height: 115px;
+    }
+    &--beetroot {
+      background-position: -375px -115px;
+      width: 120px;
+      height: 100px;
     }
   }
 }
