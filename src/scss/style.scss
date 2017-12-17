@@ -32,10 +32,19 @@ body {
   .author {
     background-color: rgba(255, 255, 255, 0.7);
     color: #00c;
-    padding: 3px 7px;
-    border-radius: 8px;
+    padding: 1px 7px;
+    border-radius: 4px;
     position: absolute;
-    top: 270px;
+    top: 278px;
+    left:10px;
+    font-weight: 800;
+    font-size:12px;
+  }
+  
+  .fb-share-button {
+    position: absolute;
+    right: 10px;
+    top:275px;
   }
   
   &__header {
