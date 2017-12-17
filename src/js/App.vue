@@ -1,6 +1,7 @@
 <template>
   <div class="main">
     <h1 class="main__header">Овочевий довідник</h1>
+    <div class="author">Written by <a href="http://demenkov.dp.ua">Ivan Demenkov</a> &copy; 2017</div>
     <div class="main__block">
       <h2>Актуальні ціни на {{ currentDate|dates }}</h2>
       <div class="main__block--content">
@@ -30,13 +31,19 @@
           </div>
         </div>
     </div>
+    <charts :data="products"></charts>
   </div>
 </template>
 
 <script>
   import Database from './database';
+  import VegetableCharts from './Charts.vue';
 
   export default {
+    name: 'app',
+    components: {
+      charts: VegetableCharts
+    },
     data: function () {
       return {
         products: Database.data,
