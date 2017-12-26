@@ -33,6 +33,7 @@
         </div>
     </div>
     <charts :data="products"></charts>
+    <div class="main__charts--info">Щоб дивитись графіки, поверніть прилад горізонтально.</div>
   </div>
 </template>
 
