@@ -1,0 +1,27 @@
+@media screen and (max-width:768px) {
+  body {
+    padding-top:0;
+    div.main {
+      width: 100%;
+      height:auto;
+      display:block;
+      border-radius:0px;
+      padding-top:300px;
+      .main__block {
+        width: 100%;
+      }
+      .main__charts {
+        position: static;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:480px) {
+  .main__charts {
+    display:none;
+    &--info {
+      display:block;
+    }
+  }   
+}

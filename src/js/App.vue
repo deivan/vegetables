@@ -1,7 +1,8 @@
 <template>
   <div class="main">
     <h1 class="main__header">Овочевий довідник</h1>
-    <div class="author">Written by <a href="http://demenkov.dp.ua">Ivan Demenkov</a> &copy; 2017</div>
+    <div class="author">Розробник: <a href="http://demenkov.dp.ua">Іван Деменков</a> &copy; 2017</div>
+    <div class="fb-share-button" data-href="http://vegetables.dp.ua/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fvegetables.dp.ua%2F&amp;src=sdkpreparse">Поширити</a></div>
     <div class="main__block">
       <h2>Актуальні ціни на {{ currentDate|dates }}</h2>
       <div class="main__block--content">
@@ -32,6 +33,7 @@
         </div>
     </div>
     <charts :data="products"></charts>
+    <div class="main__charts--info">Щоб дивитись графіки, поверніть прилад горізонтально.</div>
   </div>
 </template>
 

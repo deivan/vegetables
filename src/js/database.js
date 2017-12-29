@@ -1,11 +1,19 @@
 export default {
-  "version": "1511094431846",
+  "version": "1513766462689",
   "data": [
     {
       "name": "яблуко",
       "noun": "яблук",
       "image": "image--apple",
       "prices": [
+        {
+          "date": "2017-12-29",
+          "value": 16.00
+        },
+        {
+          "date": "2017-12-20",
+          "value": 15.00
+        },
         {
           "date": "2017-12-16",
           "value": 15.00
@@ -38,6 +46,14 @@ export default {
       "image": "image--broccoli",
       "prices": [
         {
+          "date": "2017-12-29",
+          "value": 25.00
+        },
+        {
+          "date": "2017-12-20",
+          "value": 55.00
+        },
+        {
           "date": "2017-12-16",
           "value": 50.00
         },
@@ -68,6 +84,14 @@ export default {
       "noun": "картопель",
       "image": "image--potato",
       "prices": [
+        {
+          "date": "2017-12-29",
+          "value": 6.00
+        },
+        {
+          "date": "2017-12-20",
+          "value": 6.00
+        },
         {
           "date": "2017-12-16",
           "value": 6.00
@@ -100,6 +124,14 @@ export default {
       "image": "image--cabbage",
       "prices": [
         {
+          "date": "2017-12-29",
+          "value": 5.00
+        },
+        {
+          "date": "2017-12-20",
+          "value": 6.00
+        },
+        {
           "date": "2017-12-16",
           "value": 6.50
         },
@@ -126,6 +158,14 @@ export default {
       "noun": "цибуль",
       "image": "image--onion",
       "prices": [
+        {
+          "date": "2017-12-29",
+          "value": 6.00
+        },
+        {
+          "date": "2017-12-20",
+          "value": 6.00
+        },
         {
           "date": "2017-12-16",
           "value": 6.00
@@ -162,6 +202,14 @@ export default {
       "image": "image--cucumber",
       "prices": [
         {
+          "date": "2017-12-29",
+          "value": 90.00
+        },
+        {
+          "date": "2017-12-20",
+          "value": 58.00
+        },
+        {
           "date": "2017-12-16",
           "value": 55.00
         },
@@ -193,6 +241,14 @@ export default {
       "image": "image--beetroot",
       "prices": [
         {
+          "date": "2017-12-29",
+          "value": 10.00
+        },
+        {
+          "date": "2017-12-20",
+          "value": 7.00
+        },
+        {
           "date": "2017-12-16",
           "value": 7.00
         },
@@ -215,6 +271,14 @@ export default {
       "noun": "моркви",
       "image": "image--carrot",
       "prices": [
+        {
+          "date": "2017-12-29",
+          "value": 10.00
+        },
+        {
+          "date": "2017-12-20",
+          "value": 8.00
+        },
         {
           "date": "2017-12-16",
           "value": 8.00
@@ -242,6 +306,14 @@ export default {
       "noun": "помідорів",
       "image": "image--tomato",
       "prices": [
+        {
+          "date": "2017-12-29",
+          "value": 70.00
+        },
+        {
+          "date": "2017-12-20",
+          "value": 60.00
+        },
         {
           "date": "2017-12-16",
           "value": 55.00
@@ -278,6 +350,10 @@ export default {
       "image": "image--pepper",
       "prices": [
         {
+          "date": "2017-12-20",
+          "value": 90.00
+        },
+        {
           "date": "2017-12-16",
           "value": 60.00
         },
@@ -308,6 +384,10 @@ export default {
       "noun": "баклажанів",
       "image": "image--aubergine",
       "prices": [
+        {
+          "date": "2017-12-20",
+          "value": 80.00
+        },
         {
           "date": "2017-12-16",
           "value": 60.00
