@@ -30,7 +30,10 @@
             }],
             xAxes: [{
               type: 'time',
-              distribution: 'series'
+              distribution: 'series',
+              time: {
+                tooltipFormat: 'DD MMM, YYYY'
+              }
             }]
           }
         }
