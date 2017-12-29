@@ -5,9 +5,11 @@
   "main": "index.js",
   "dependencies": {
     "chart.js": "^2.7.1",
-    "moment": "^2.20.0",
+    "moment": "^2.20.1",
     "vue": "^2.5.9",
+    "vue-chart-js": "^1.4.1",
     "vue-material": "^1.0.0-beta-4",
+    "vue-momentjs": "^0.1.1",
     "vuejs": "^2.0.6"
   },
   "devDependencies": {
