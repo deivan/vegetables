@@ -350,6 +350,9 @@ export default {
       "image": "image--pepper",
       "prices": [
         {
+          "date": "2017-12-29",
+          "value": 100.00
+        },{
           "date": "2017-12-20",
           "value": 90.00
         },
@@ -384,6 +387,10 @@ export default {
       "noun": "баклажанів",
       "image": "image--aubergine",
       "prices": [
+        {
+          "date": "2017-12-29",
+          "value": 150.00
+        },
         {
           "date": "2017-12-20",
           "value": 80.00
