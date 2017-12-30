@@ -5,8 +5,14 @@
 </template>
 
 <script>
-  import 'chart.js/dist/Chart.bundle.min.js';
-  
+  import moment from 'moment/moment.js';
+  import VueMomentJS from 'vue-momentjs';
+  import 'moment/locale/uk.js';
+
+  import VueChart from 'vue-chart-js'
+
+  moment.locale('uk');
+
   export default {
     name: 'charts',
     props: ['data'],
@@ -30,7 +36,16 @@
             }],
             xAxes: [{
               type: 'time',
-              distribution: 'series'
+              distribution: 'series',
+              time: {
+                tooltipFormat: 'DD MMMM, YYYY',
+                unit: 'month'
+              },
+              ticks: {
+                  callback: function(value, index, values) {
+                    return (values[index]) ? moment(values[index].value).format('MMM YYYY') : null;
+                  }
+              }
             }]
           }
         }
@@ -46,7 +61,7 @@
       colors = { r: getRandomColor(), g: getRandomColor(), b: getRandomColor() };
       max = item.prices.length < 10 ? item.prices.length : 10; //show only last 10 prices in chart
       for (let i = 0; i < max; i++)
-        dataSet.push({ x: new Date(item.prices[i].date), y: item.prices[i].value });
+        dataSet.push({ x: moment(item.prices[i].date), y: item.prices[i].value });
       dataItem = { 
         label: item.name, 
         data: dataSet,
