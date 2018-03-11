@@ -34,6 +34,9 @@
     </div>
     <charts :data="products"></charts>
     <div class="main__charts--info">Щоб дивитись графіки, поверніть прилад горізонтально.</div>
+	<div style="width:100%;text-align:center;margin-top:10px">
+		<a href="https://hashflare.io/r/C6272D3B"><img src="https://cdn.hashflare.eu/banners/ru/profit_728x90_ru.gif?v=2" alt="HashFlare"></a>
+	</div>
   </div>
 </template>
 
