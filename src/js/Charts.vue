@@ -12,6 +12,8 @@
   import VueChart from 'vue-chart-js'
 
   moment.locale('uk');
+  
+  const PRICE_COUNT = 8; // max prices number on chartn for each line
 
   export default {
     name: 'charts',
@@ -59,7 +61,7 @@
       dataItem = { label: item.name };
       dataSet = [];
       colors = { r: getRandomColor(), g: getRandomColor(), b: getRandomColor() };
-      max = item.prices.length < 10 ? item.prices.length : 10; //show only last 10 prices in chart
+      max = item.prices.length < PRICE_COUNT ? item.prices.length : PRICE_COUNT; //show only last 10 prices in chart
       for (let i = 0; i < max; i++)
         dataSet.push({ x: moment(item.prices[i].date), y: item.prices[i].value });
       dataItem = { 

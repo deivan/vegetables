@@ -1,11 +1,15 @@
 export default {
-  "version": "1531583763973",
+  "version": "1532251117937",
   "data": [
     {
       "name": "яблуко",
       "noun": "яблук",
       "image": "image--apple",
       "prices": [
+        {
+          "date": "2018-07-22",
+          "value": 25.00
+        },
         {
           "date": "2018-07-14",
           "value": 26.00
@@ -118,6 +122,10 @@ export default {
       "image": "image--broccoli",
       "prices": [
         {
+          "date": "2018-07-22",
+          "value": 35.00
+        },
+        {
           "date": "2018-07-14",
           "value": 40.00
         },
@@ -138,7 +146,15 @@ export default {
           "value": 70.00
         },
         {
+          "date": "2018-05-24",
+          "value": 70.00
+        },
+        {
           "date": "2018-05-13",
+          "value": 70.00
+        },
+        {
+          "date": "2018-04-05",
           "value": 70.00
         },
         {
@@ -204,6 +220,10 @@ export default {
       "noun": "картопель",
       "image": "image--potato",
       "prices": [
+        {
+          "date": "2018-07-22",
+          "value": 6.00
+        },
         {
           "date": "2018-07-14",
           "value": 7.00
@@ -316,6 +336,10 @@ export default {
       "image": "image--cabbage",
       "prices": [
         {
+          "date": "2018-07-22",
+          "value": 8.00
+        },
+        {
           "date": "2018-07-14",
           "value": 10.00
         },
@@ -422,6 +446,10 @@ export default {
       "noun": "цибуль",
       "image": "image--onion",
       "prices": [
+        {
+          "date": "2018-07-22",
+          "value": 8.00
+        },
         {
           "date": "2018-07-14",
           "value": 8.00
@@ -538,6 +566,10 @@ export default {
       "image": "image--cucumber",
       "prices": [
         {
+          "date": "2018-07-22",
+          "value": 8.00
+        },
+        {
           "date": "2018-07-14",
           "value": 8.00
         },
@@ -649,6 +681,10 @@ export default {
       "image": "image--beetroot",
       "prices": [
         {
+          "date": "2018-07-22",
+          "value": 10.00
+        },
+        {
           "date": "2018-07-14",
           "value": 10.00
         },
@@ -751,6 +787,10 @@ export default {
       "noun": "моркви",
       "image": "image--carrot",
       "prices": [
+        {
+          "date": "2018-07-22",
+          "value": 20.00
+        },
         {
           "date": "2018-07-14",
           "value": 27.00
@@ -858,6 +898,10 @@ export default {
       "noun": "помідорів",
       "image": "image--tomato",
       "prices": [
+        {
+          "date": "2018-07-22",
+          "value": 10.00
+        },
         {
           "date": "2018-07-14",
           "value": 12.00
@@ -974,6 +1018,10 @@ export default {
       "image": "image--pepper",
       "prices": [
         {
+          "date": "2018-07-22",
+          "value": 10.00
+        },
+        {
           "date": "2018-07-14",
           "value": 16.00
         },
@@ -992,6 +1040,10 @@ export default {
         {
           "date": "2018-06-04",
           "value": 60.00
+        },
+        {
+          "date": "2018-05-24",
+          "value": 75.00
         },
         {
           "date": "2018-05-13",
@@ -1079,6 +1131,10 @@ export default {
       "noun": "баклажанів",
       "image": "image--aubergine",
       "prices": [
+        {
+          "date": "2018-07-22",
+          "value": 10.00
+        },
         {
           "date": "2018-07-14",
           "value": 16.00
