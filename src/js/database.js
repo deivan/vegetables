@@ -576,7 +576,7 @@ export default {
       "prices": [
         {
           "date": "2018-12-02",
-          "value": 14.00
+          "value": 17.00
         },
         {
           "date": "2018-11-15",
@@ -874,7 +874,7 @@ export default {
       "prices": [
         {
           "date": "2018-12-02",
-          "value": 17.00
+          "value": 13.00
         },
         {
           "date": "2018-11-15",
@@ -1013,7 +1013,7 @@ export default {
       "prices": [
         {
           "date": "2018-12-02",
-          "value": 15.00
+          "value": 14.00
         },
         {
           "date": "2018-11-15",
