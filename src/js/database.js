@@ -7,6 +7,14 @@ export default {
       "image": "image--apple",
       "prices": [
         {
+          "date": "2019-04-23",
+          "value": 12.00
+        },
+        {
+          "date": "2019-03-28",
+          "value": 11.00
+        },
+        {
           "date": "2019-03-10",
           "value": 10.00
         },
@@ -170,6 +178,14 @@ export default {
       "image": "image--broccoli",
       "prices": [
         {
+          "date": "2019-04-23",
+          "value": 60.00
+        },
+        {
+          "date": "2019-03-28",
+          "value": 65.00
+        },
+        {
           "date": "2019-03-10",
           "value": 70.00
         },
@@ -316,6 +332,14 @@ export default {
       "noun": "картопель",
       "image": "image--potato",
       "prices": [
+        {
+          "date": "2019-04-23",
+          "value": 13.00
+        },
+        {
+          "date": "2019-03-28",
+          "value": 12.00
+        },
         {
           "date": "2019-03-10",
           "value": 11.00
@@ -480,6 +504,14 @@ export default {
       "image": "image--cabbage",
       "prices": [
         {
+          "date": "2019-04-23",
+          "value": 27.00
+        },
+        {
+          "date": "2019-03-28",
+          "value": 18.00
+        },
+        {
           "date": "2019-03-10",
           "value": 10.00
         },
@@ -638,6 +670,14 @@ export default {
       "noun": "цибуль",
       "image": "image--onion",
       "prices": [
+        {
+          "date": "2019-04-23",
+          "value": 30.00
+        },
+        {
+          "date": "2019-03-28",
+          "value": 24.00
+        },
         {
           "date": "2019-03-10",
           "value": 18.00
@@ -806,6 +846,14 @@ export default {
       "image": "image--cucumber",
       "prices": [
         {
+          "date": "2019-04-23",
+          "value": 50.00
+        },
+        {
+          "date": "2019-03-28",
+          "value": 55.00
+        },
+        {
           "date": "2019-03-10",
           "value": 55.00
         },
@@ -969,6 +1017,14 @@ export default {
       "image": "image--beetroot",
       "prices": [
         {
+          "date": "2019-04-23",
+          "value": 20.00
+        },
+        {
+          "date": "2019-03-28",
+          "value": 16.00
+        },
+        {
           "date": "2019-03-10",
           "value": 14.00
         },
@@ -1123,6 +1179,14 @@ export default {
       "noun": "моркви",
       "image": "image--carrot",
       "prices": [
+        {
+          "date": "2019-04-23",
+          "value": 20.00
+        },
+        {
+          "date": "2019-03-28",
+          "value": 16.00
+        },
         {
           "date": "2019-03-10",
           "value": 14.00
@@ -1282,6 +1346,14 @@ export default {
       "noun": "помідорів",
       "image": "image--tomato",
       "prices": [
+        {
+          "date": "2019-04-23",
+          "value": 55.00
+        },
+        {
+          "date": "2019-03-28",
+          "value": 55.00
+        },
         {
           "date": "2019-03-10",
           "value": 50.00
@@ -1450,6 +1522,14 @@ export default {
       "image": "image--pepper",
       "prices": [
         {
+          "date": "2019-04-23",
+          "value": 80.00
+        },
+        {
+          "date": "2019-03-28",
+          "value": 80.00
+        },
+        {
           "date": "2019-03-10",
           "value": 90.00
         },
@@ -1612,8 +1692,16 @@ export default {
       "image": "image--aubergine",
       "prices": [
         {
+          "date": "2019-04-23",
+          "value": 60.00
+        },
+        {
+          "date": "2019-03-28",
+          "value": 70.00
+        },
+        {
           "date": "2019-03-10",
-          "value": 100.00
+          "value": 90.00
         },
         {
           "date": "2019-02-19",
