@@ -13,7 +13,7 @@
 
   moment.locale('uk');
   
-  const PRICE_COUNT = 8; // max prices number on chartn for each line
+  const PRICE_COUNT = 16; // max prices number on chartn for each line
 
   export default {
     name: 'charts',
