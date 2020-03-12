@@ -7,6 +7,10 @@ export default {
       "image": "image--apple",
       "prices": [
         {
+          "date": "2020-03-12",
+          "value": 15.00
+        },
+        {
           "date": "2020-02-20",
           "value": 16.00
         },
@@ -246,6 +250,10 @@ export default {
       "image": "image--broccoli",
       "prices": [
         {
+          "date": "2020-03-12",
+          "value": 50.00
+        },
+        {
           "date": "2020-02-20",
           "value": 90.00
         },
@@ -464,6 +472,10 @@ export default {
       "noun": "картопель",
       "image": "image--potato",
       "prices": [
+        {
+          "date": "2020-03-12",
+          "value": 12.00
+        },
         {
           "date": "2020-02-20",
           "value": 15.00
@@ -704,6 +716,10 @@ export default {
       "image": "image--cabbage",
       "prices": [
         {
+          "date": "2020-03-12",
+          "value": 6.00
+        },
+        {
           "date": "2020-02-20",
           "value": 10.00
         },
@@ -938,6 +954,10 @@ export default {
       "noun": "цибуль",
       "image": "image--onion",
       "prices": [
+        {
+          "date": "2020-03-12",
+          "value": 10.00
+        },
         {
           "date": "2020-02-20",
           "value": 10.00
@@ -1182,6 +1202,10 @@ export default {
       "image": "image--cucumber",
       "prices": [
         {
+          "date": "2020-03-12",
+          "value": 70.00
+        },
+        {
           "date": "2020-02-20",
           "value": 65.00
         },
@@ -1421,6 +1445,10 @@ export default {
       "image": "image--beetroot",
       "prices": [
         {
+          "date": "2020-03-12",
+          "value": 8.00
+        },
+        {
           "date": "2020-02-20",
           "value": 10.00
         },
@@ -1651,6 +1679,10 @@ export default {
       "noun": "моркви",
       "image": "image--carrot",
       "prices": [
+        {
+          "date": "2020-03-12",
+          "value": 8.00
+        },
         {
           "date": "2020-02-20",
           "value": 10.00
@@ -1886,6 +1918,10 @@ export default {
       "noun": "помідорів",
       "image": "image--tomato",
       "prices": [
+        {
+          "date": "2020-03-12",
+          "value": 45.00
+        },
         {
           "date": "2020-02-20",
           "value": 40.00
@@ -2130,6 +2166,10 @@ export default {
       "image": "image--pepper",
       "prices": [
         {
+          "date": "2020-03-12",
+          "value": 65.00
+        },
+        {
           "date": "2020-02-20",
           "value": 75.00
         },
@@ -2367,6 +2407,10 @@ export default {
       "noun": "баклажанів",
       "image": "image--aubergine",
       "prices": [
+        {
+          "date": "2020-03-12",
+          "value": 75.00
+        },
         {
           "date": "2020-02-20",
           "value": 100.00
