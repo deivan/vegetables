@@ -1,11 +1,15 @@
 export default {
-  "version": "1610295926391",
+  "version": "1611406724724",
   "data": [
     {
       "name": "яблуко",
       "noun": "яблук",
       "image": "image--apple",
       "prices": [
+        {
+          "date": "2021-01-23",
+          "value": 22.00
+        },
         {
           "date": "2021-01-08",
           "value": 25.00
@@ -310,6 +314,10 @@ export default {
       "image": "image--broccoli",
       "prices": [
         {
+          "date": "2021-01-23",
+          "value": 55.00
+        },
+        {
           "date": "2021-01-08",
           "value": 55.00
         },
@@ -588,6 +596,10 @@ export default {
       "noun": "картопель",
       "image": "image--potato",
       "prices": [
+        {
+          "date": "2021-01-23",
+          "value": 10.00
+        },
         {
           "date": "2021-01-08",
           "value": 12.00
@@ -892,6 +904,10 @@ export default {
       "image": "image--cabbage",
       "prices": [
         {
+          "date": "2021-01-23",
+          "value": 7.00
+        },
+        {
           "date": "2021-01-08",
           "value": 7.00
         },
@@ -1191,8 +1207,12 @@ export default {
       "image": "image--onion",
       "prices": [
         {
+          "date": "2021-01-23",
+          "value": 8.00
+        },
+        {
           "date": "2021-01-08",
-          "value": 6.00
+          "value": 8.00
         },
         {
           "date": "2020-12-05",
@@ -1498,6 +1518,10 @@ export default {
       "image": "image--cucumber",
       "prices": [
         {
+          "date": "2021-01-23",
+          "value": 65.00
+        },
+        {
           "date": "2021-01-08",
           "value": 55.00
         },
@@ -1801,6 +1825,10 @@ export default {
       "image": "image--beetroot",
       "prices": [
         {
+          "date": "2021-01-23",
+          "value": 10.00
+        },
+        {
           "date": "2021-01-08",
           "value": 8.00
         },
@@ -2096,8 +2124,12 @@ export default {
       "image": "image--carrot",
       "prices": [
         {
+          "date": "2021-01-23",
+          "value": 10.00
+        },
+        {
           "date": "2021-01-08",
-          "value": 15.00
+          "value": 10.00
         },
         {
           "date": "2020-12-05",
@@ -2395,8 +2427,12 @@ export default {
       "image": "image--tomato",
       "prices": [
         {
+          "date": "2021-01-23",
+          "value": 45.00
+        },
+        {
           "date": "2021-01-08",
-          "value": 60.00
+          "value": 50.00
         },
         {
           "date": "2020-12-05",
@@ -2702,6 +2738,10 @@ export default {
       "image": "image--pepper",
       "prices": [
         {
+          "date": "2021-01-23",
+          "value": 90.00
+        },
+        {
           "date": "2021-01-08",
           "value": 85.00
         },
@@ -3003,6 +3043,10 @@ export default {
       "noun": "баклажанів",
       "image": "image--aubergine",
       "prices": [
+        {
+          "date": "2021-01-23",
+          "value": 100.00
+        },
         {
           "date": "2021-01-08",
           "value": 100.00
