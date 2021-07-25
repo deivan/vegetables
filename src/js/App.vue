@@ -5,12 +5,12 @@
     <div class="fb-share-button" data-href="http://vegetables.dp.ua/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fvegetables.dp.ua%2F&amp;src=sdkpreparse">Поширити</a></div>
     <div class="main__block">
       <h2>Актуальні ціни на {{ currentDate|dates }}</h2>
-      <div class="main__block--content"  title="Актуальная цена на овощи в Днепре">
+      <div class="main__block--content font-size-19"  title="Актуальная цена на овощи в Днепре">
         <div class="main__block--column">
-          <p v-for="(item, index) in lastPrices" v-if="index < 7">{{item.name}} <span>&#8372; {{item.price|decimal}}</span></p>
+          <p v-for="(item, index) in lastPrices" v-if="index < 6">{{item.name}} <span>&#8372; {{item.price|decimal}}</span></p>
         </div>
         <div class="main__block--column">
-          <p v-for="(item, index) in lastPrices" v-if="index > 6" class="pull-left"><span>&#8372; {{item.price|decimal}}</span> {{item.name}}</p>
+          <p v-for="(item, index) in lastPrices" v-if="index > 5" class="pull-left"><span>&#8372; {{item.price|decimal}}</span> {{item.name}}</p>
         </div>
       </div>
     </div>
@@ -26,17 +26,18 @@
             </div>
             <div class="image" :class="currentImage"></div>
           </div>
-          <div class="main__block--column">
-            <h3>буде коштувати:</h3>
+          <div class="main__block--column font-size-12">
+            <h4>буде коштувати:</h4>
             <p class="pull-left" v-for="item in randomList"><strong>{{item.price|decimal}}</strong> {{item.noun}}</p>
           </div>
         </div>
     </div>
     <charts :data="products"></charts>
     <div class="main__charts--info">Щоб дивитись графіки, поверніть прилад горізонтально.</div>
-    <div class="main__advertise" title="овочі ціна Дніпро купити лол кєк чебурєк">
-<!--      <a href="https://hashflare.io/r/C6272D3B"><img src="https://cdn.hashflare.eu/banners/ru/profit_728x90_ru.gif?v=2" alt="HashFlare"></a>-->
+<!--    <div class="main__advertise" title="овочі ціна Дніпро купити лол кєк чебурєк">
+      <a href="https://hashflare.io/r/C6272D3B"><img src="https://cdn.hashflare.eu/banners/ru/profit_728x90_ru.gif?v=2" alt="HashFlare"></a>
     </div>
+-->
   </div>
 </template>
 
